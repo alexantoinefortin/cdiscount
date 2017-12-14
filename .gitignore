@@ -1,10 +1,10 @@
 .DS_Store
 /input/*
-.png
-.csv
-.gz
-.bson
-.pyc
-.hdf5
-.zip
+*.png
+*.csv
+*.gz
+*.bson
+*.pyc
+*.hdf5
+*.zip
 config
