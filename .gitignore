@@ -7,4 +7,12 @@
 *.pyc
 *.hdf5
 *.zip
+*.ipynb
+*.log
 config
+
+#Python files
+/code/00-Training-Extraction.py
+/code/01-Xception-Model-image.py
+/code/02-predictions-synchronous.py
+/code/02-predictions-asynchronous.py
