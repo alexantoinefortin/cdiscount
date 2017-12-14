@@ -29,7 +29,7 @@ Running this code yields a model with 0.65663 accuracy. Due to a mistake early o
 * The `.bson` format
 
 #### Dependencies
-* Python36
+* Python 3.6.3
 * tensorflow==1.4.1
 * Keras==2.1.1
 * h5py==2.7.1
