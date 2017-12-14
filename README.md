@@ -35,5 +35,6 @@ Running this code yields a model with 0.65663 accuracy. Due to a mistake early o
 * h5py==2.7.1
 * numpy==1.13.3
 * tqdm==4.19.4
+* pandas==0.21.0
 
 
