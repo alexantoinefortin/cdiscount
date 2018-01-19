@@ -58,7 +58,8 @@ gcc -v
 # Python package
 cd ~/Downloads
 pip3 --version
-sudo -H pip3 install numpy
+sudo apt-get -y install python3-dev
+sudo pip3 install numpy
 sudo pip3 install scipy --no-cache-dir
 sudo pip3 install cython
 sudo pip3 install pandas
@@ -68,7 +69,6 @@ sudo pip3 install tqdm
 sudo pip3 install pillow
 sudo pip3 install protobuf
 sudo pip3 install wheel
-sudo apt-get -y install python3-dev
 sudo pip3 install six
 sudo pip3 install h5py
 sudo pip3 install pymongo
