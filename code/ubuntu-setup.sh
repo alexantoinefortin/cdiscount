@@ -28,7 +28,6 @@ sudo apt-get -y install liblapack-doc
 sudo apt-get -y install gfortran
 #sudo apt-get -y install texlive
 
-
 # Python dependencies
 sudo apt-get -y install libreadline-gplv2-dev
 sudo apt-get -y install libncursesw5-dev
@@ -59,9 +58,9 @@ gcc -v
 cd ~/Downloads
 pip3 --version
 sudo apt-get -y install python3-dev
+sudo pip3 install cython
 sudo pip3 install numpy
 sudo pip3 install scipy --no-cache-dir
-sudo pip3 install cython
 sudo pip3 install pandas
 sudo pip3 install scikit-learn
 sudo pip3 install statsmodels --no-cache-dir
@@ -76,7 +75,6 @@ sudo pip3 install numba
 # kaggle-specific
 sudo apt-get -y install python-lxml
 sudo pip3 install kaggle-cli
-
 
 # Java
 java -version
