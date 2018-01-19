@@ -44,10 +44,10 @@ sudo apt-get -y install libbz2-dev
 # Python
 mkdir ~/Downloads
 cd ~/Downloads
-wget https://www.python.org/ftp/python/3.6.3/Python-3.6.3.tgz
+wget https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tgz
 # Extract and go to directory
-tar -xvf Python-3.6.3.tgz
-cd Python-3.6.3
+tar -xvf Python-3.6.4.tgz
+cd Python-3.6.4
 ./configure --enable-unicode=ucs4 --enable-optimizations
 make
 sudo make install
@@ -68,7 +68,7 @@ sudo pip3 install tqdm
 sudo pip3 install pillow
 sudo pip3 install protobuf
 sudo pip3 install wheel
-sudo apt-get -y install python-dev
+sudo apt-get -y install python3-dev
 sudo pip3 install six
 sudo pip3 install h5py
 sudo pip3 install pymongo
